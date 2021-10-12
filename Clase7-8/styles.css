@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+
+
+.margin{
+    text-align: center;
+    background-color: turquoise;
+    width: 200px;
+    height: 150px;
+    margin: 10px 15px;
+}
+
+.padding{
+    text-align: center;
+    background-color: green;
+    width: 200px;
+    height: 150px;
+    margin: 10px 15px;
+    padding: 30px 40px 50px;
+}
+
+.border{
+    text-align: center;
+    background-color: violet;
+    width: 200px;
+    height: 150px;
+    border:5px solid black ;
+
+}
+
+.caja-completa{
+    text-align: center;
+    background-color: brown;
+    width: 200px;
+    height: 150px;
+    margin: 30px;
+    padding: 40px;
+    border:5px solid black ;
+    
+}

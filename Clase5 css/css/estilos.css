@@ -1,0 +1,57 @@
+/* h1{
+    color: black;
+    background-color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 75px;
+} 
+
+p{
+    font-family: sans-serif;
+} */
+
+/* p {
+    color: red;
+}
+
+.parrafo-verde{
+    color: green;
+    font-family: sans-serif;
+    font-style: oblique;
+    background-color: indigo;
+}
+
+
+#parrafo2{
+    background-color: lavender;
+}
+
+#palabra{
+    color: lawngreen;
+} */
+
+/* #el-div{
+    
+    border-width: 1px;
+    border-style: solid;
+    border-color: hotpink green yellow blue;
+
+} */
+
+
+#el-div{
+    background-color: #ffffff;
+}
+
+@font-face {
+    font-family: "blackjack";
+    src: url("../fonts/Black\ Jack.ttf");
+}
+
+
+h1{
+    font-family: "blackjack";
+}
+ 
+p{
+    font-family: 'Style Script', cursive;
+}

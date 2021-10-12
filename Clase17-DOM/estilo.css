@@ -1,0 +1,12 @@
+#botoncito{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-size: 25px;
+    margin: 30px 400px;
+    box-shadow: black;
+}
+
+#botoncito:hover{
+    cursor: pointer;
+}

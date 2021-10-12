@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="icon" href="img/river.ico">
+    <script src="https://kit.fontawesome.com/bc1cfbcebb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos2.css">
+</head>
+<body>
+    <head>
+        <h1>Formulario</h1>
+    </head>
+    <section>
+        <form action="https://formspree.io/f/xdoypldl" method="POST" target="_blank">
+
+            <!-- <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre">  Nose usa mas -->
+            <p>
+            <label><i class="fas fa-user-tie fa-1x"></i> Nombre:
+                <input type="text" name="nombre" placeholder="Ingrese Nombre" required>
+            </label>
+            </p>
+
+            <p>
+                <label><i class="far fa-envelope fa-1x"></i> Email:
+                    <input type="email" name="mail" placeholder="Ingrese Email" required>
+                </label>
+                </p>
+
+            <p>
+                <label>Sexo:
+                    <br>
+                    <br>
+                    <input type="radio" id="html" name="Sexo" value="Hombre">
+                    <label for="html"><i class="fas fa-male fa-1x"></i> Hombre</label>
+                    <br>
+                    <br>
+                    <input type="radio" id="mujer" name="Sexo" value="Mujer">
+                    <label for="mujer"><i class="fas fa-female fa-1x"></i> Mujer</label>
+                </label>
+            </p>
+
+            <p>
+            <label><i class="fab fa-python fa-1x"></i> Seleccionar curso:
+                <select name="selector">
+                    <option value="Java">Java</option>
+                    <option value="Python">Python</option>
+                    <option value="C++">C++</option>
+
+                </select>
+            </label>
+            </p>
+
+
+            <p>
+            <label><i class="fas fa-align-right fa-1x"></i> Comentarios:
+                <br><br>
+                <textarea name="comentarios" cols="30" rows="10"></textarea>
+            </label>
+            </p>
+
+            <p>
+            <fieldset class="campito"> 
+                <legend>Datos Personales</legend>
+                <p> 
+                <label>Carrera:
+                       <input type="text" name="Carrera">
+                </label>
+                </p>
+                <label>
+                    Año Ingreso:
+                    <input type="text" name="AñoIng">
+
+                </label>
+            </fieldset>
+            </p>
+
+
+            <input type="reset" name="reset">
+            <input type="submit" name="submit">
+        </form><br><br><br>
+
+
+        <i class="fab fa-amazon fa-10x fa-spin"></i>
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+    
+</body>
+</html>

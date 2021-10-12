@@ -1,0 +1,38 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+body{
+    background:linear-gradient(60deg,blue,white)
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr; /*repeat(4, 3rem)*/
+    grid-template-rows: repeat(6, 20vh);
+    grid-gap: 5% /*para separar las cjas entre si*/
+    /*grid-row-gap
+    grid-column-gap*/
+    
+}
+
+.grid-item{
+    border: 1px solid black;
+    background-color: blueviolet;
+    display:flex;
+    justify-content: center;
+    align-items:center
+}
+
+/*#item-especial{
+    grid-column: 2/4;
+    grid-row: 2/5;
+
+} */

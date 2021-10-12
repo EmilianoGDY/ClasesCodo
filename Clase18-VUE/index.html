@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div id="app">
+        {{message}}
+    </div>
+
+    <script>
+        var app = new Vue(
+            {
+                el: "#app",
+                data:{
+                    message: "Hola Mundo con Vue",
+                },
+            }
+        );
+
+    </script> -->
+
+    <div id="app">
+        <p>v-model es BIDIRECCIONAL</p>
+        <input type="text" v-model:value="valorModel">
+        <p>el valor de vModel es:</p>
+        <p>
+            {{valorModel}}
+        </p>
+        
+
+
+        <p>v-bind es UNIDIRECCIONAL</p>
+        <p>
+            {{valorBind}}sss
+        </p>
+        <p>-------------------------------</p>
+
+        <p>
+            Link Dinamico: ver documentacion de :
+            <a v-bind:href="link" target="blank">
+                {{nombreLink}}
+            </a>
+        </p>
+    </div>
+  
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
