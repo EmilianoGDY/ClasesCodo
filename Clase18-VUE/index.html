@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- <div id="app">
+     <!-- <div id="app">
         {{message}}
     </div>
 
@@ -21,9 +21,9 @@
             }
         );
 
-    </script> -->
+    </script> --> 
 
-    <div id="app">
+     <!-- <div id="app">
         <p>v-model es BIDIRECCIONAL</p>
         <input type="text" v-model:value="valorModel">
         <p>el valor de vModel es:</p>
@@ -35,7 +35,7 @@
 
         <p>v-bind es UNIDIRECCIONAL</p>
         <p>
-            {{valorBind}}sss
+            {{valorBind}}
         </p>
         <p>-------------------------------</p>
 
@@ -44,8 +44,45 @@
             <a v-bind:href="link" target="blank">
                 {{nombreLink}}
             </a>
-        </p>
+        </p> 
+
+
+
+      <p v-for="tecnologia in tecnologias">
+        {{tecnologia}}
+      </p>
+    </div>   -->
+
+
+
+    <div id="formVue">
+        <h2>Metodos !!!</h2>
+        <form v-on:submit.prevent="guardarTarea">
+            <h4>LISTA DE TAREAS</h4>
+            <input type="text" v-model="nuevaTarea">
+            <input type="submit" >
+
+            <ul>
+                <li v-for="tarea in tareas">
+                    {{tarea}}
+                </li>
+            </ul>
+
+            <p> {{$data}} </p>
+
+
+        </form>  
+
+
+
+
+
     </div>
+
+  
+
+
+
   
 
 
