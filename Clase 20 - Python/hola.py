@@ -36,9 +36,14 @@
 # print("%s tiene %d anios" %(nombre, edad))
 
 
-lista = [1,3,5,7,8,9]
+# lista = [1,3,5,7,8,9]
 
-print(4 in lista)
-elemento_borrado = lista.pop(0)
-print(lista)
-print(elemento_borrado)
+# print(4 in lista)
+# elemento_borrado = lista.pop(0)
+# print(lista)
+# print(elemento_borrado)
+
+
+x = lambda a,b: a * b
+
+print(x(5, 6))
